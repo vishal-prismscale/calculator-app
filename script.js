@@ -19,7 +19,7 @@ class Calculator {
   }
 
   addValue(number) {
-    const operators = ["+", "-", "*", "/", "÷", "."]
+    const operators = ["+", "-", "*", "/", "."]
     const lastChar = this.displayElement.textContent.slice(-1)
     
     // check if operators show up twice straight
